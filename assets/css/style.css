@@ -981,6 +981,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #contact .contact-phone {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
+    height: 100%;
   }
 }
 
@@ -989,7 +990,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   #contact #google-map {
     margin-top: 20px;
   }
