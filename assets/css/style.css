@@ -190,8 +190,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content h5 span {
-  color: linear-gradient(#1B75BC, #00AEEF);;
-  text-decoration: underline;
+  color: linear-gradient(#1B75BC);;
+  /*text-decoration: underline;*/
 }
 
 @media (max-width: 767px) {
@@ -343,7 +343,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: linear-gradient(#1B75BC, #00AEEF);;
+  color: #1B75BC
 }
 
 .nav-menu > li {
@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: linear-gradient(#1B75BC, #00AEEF);;
+  color: linear-gradient(#1B75BC, #00AEEF);
 }
 
 .nav-menu ul ul {
@@ -621,7 +621,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box .icon i:before {
   background: #16405F;
-  background: linear-gradient(45deg, linear-gradient(#1B75BC, #00AEEF); 0%, #a3ebd5 100%);
+  background: linear-gradient(45deg, #1B75BC, #00AEEF 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
