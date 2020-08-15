@@ -4,7 +4,7 @@
 --------------------------------------------------------------*/
 body {
   background: #fff;
-  color: #444;
+  color: #231f20;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -25,7 +25,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 100px;
   margin-top: -50px;
   margin-bottom: -48px;
-  margin-left: -200px;
+  margin-left: -120px;
   margin-right: -48px;
 }
 
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 34px;
   }
   #header #logo img {
-    max-height: 40px;
+    max-height: auto;
   }
 }
 
@@ -558,7 +558,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #16405F;
   font-weight: 700;
   font-size: 36px;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 #about .content h3 {
@@ -580,7 +580,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: linear-gradient(#1B75BC, #00AEEF);;
+  color: linear-gradient(#1B75BC, #00AEEF);
 }
 
 #about .content ul {
@@ -970,7 +970,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: linear-gradient(#1B75BC, #00AEEF);;
+  color:  #00AEEF);
 }
 
 #contact .contact-address, #contact .contact-phone, #contact .contact-email {
