@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: linear-gradient(#1B75BC, #00AEEF);;
+  color: #00AEEF;
 }
 
 #topbar .contact-info i {
@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a:hover {
-  color: linear-gradient(#1B75BC, #00AEEF);;
+  color: #00AEEF;
 }
 
 #topbar .social-links a:first-child {
@@ -140,8 +140,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo img {
-  padding: 0;
-  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-left: 100px;
+  margin-top: -50px;
+  margin-bottom: -48px;
+  margin-left: -200px;
+  margin-right: -48px;
 }
 
 @media (max-width: 768px) {
