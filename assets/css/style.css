@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 100px;
   margin-top: -50px;
   margin-bottom: -48px;
-  margin-left: -120px;
+  margin-left: -135px;
   margin-right: -48px;
 }
 
@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
   font-size: 55px;
   font-weight: 600;
-  font-family: sans-serif;
+
 }
 
 #intro .intro-content h5 span {
