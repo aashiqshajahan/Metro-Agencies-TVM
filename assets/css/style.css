@@ -193,6 +193,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
   font-size: 55px;
   font-weight: 600;
+  font-family: sans-serif;
 }
 
 #intro .intro-content h5 span {
@@ -562,11 +563,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content h3 {
-  color: #555;
-  font-weight: 300;
-  font-size: 18px;
+  color: #000;
+  font-weight: 400;
+  font-size: 17px;
   line-height: 26px;
-  font-style: italic;
+
 }
 
 #about .content p {
@@ -970,7 +971,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color:  #00AEEF);
+  color:  #00AEEF;
 }
 
 #contact .contact-address, #contact .contact-phone, #contact .contact-email {
