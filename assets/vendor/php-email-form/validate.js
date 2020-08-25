@@ -111,11 +111,11 @@ $('form.php-email-form').submit(function() {
     success: function(msg) {
       if (msg == 'OK') {
         this_form.find('.loading').slideUp();
-        this_form.find('.sent-message').slideDown();
-        this_form.find("input:not(input[type=submit]), textarea").val('');
+        this_form.find('.error-message').slideDown().html(msg); 
       } else {
         this_form.find('.loading').slideUp();
-        this_form.find('.error-message').slideDown().html(msg);
+        this_form.find('.sent-message').slideDown();
+        this_form.find("input:not(input[type=submit]), textarea").val('');
       }
     }
   });
